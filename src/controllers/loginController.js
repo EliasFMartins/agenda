@@ -1,6 +1,7 @@
 // const { async } = require('regenerator-runtime');
 const Login = require('../models/LoginModel');
 
+
 exports.index = (req,res) => {
   res.render('login')
 };
